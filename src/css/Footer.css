@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa; /* Adjust to match the image */
+  }
+  
+  .footer button {
+    padding: 10px 20px;
+    background-color: #343a40; /* Dark grey color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

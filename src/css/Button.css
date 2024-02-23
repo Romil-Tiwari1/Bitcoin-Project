@@ -1,0 +1,18 @@
+.buttons {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button.active {
+    background-color: #f2a900;
+    color: white;
+  }
+  
