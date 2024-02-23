@@ -111,7 +111,6 @@ app.get('/api/bitcoin/difficulty', async (req, res) => {
       const response = await axios.get(difficultyEndpoint);
       const { estimatedRetargetDate, difficultyChange, nextRetargetHeight } = response.data;
 
-      difficultyChange = (difficultyChange / 1000).toFixed(2);
 
       // You might want to adjust the data structure according to your needs
       res.json({
